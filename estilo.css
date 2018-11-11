@@ -1,37 +1,59 @@
-<!doctype html>
-
-<html lang="pt-br">
-  <head>
+body{
+    width: 95%;
+    max-width: 800px;
+    margin: auto;
+    font-family: 'Courgette',cursive,'Times New Roman', Times, serif;
+    line-height: 1.5;
     
-      <meta charset="utf-8">
     
-    <title>Nome do site- descrição</title>
+    background: url('img/redblack.jpg') no-repeat center top fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color:#f3f2f2;    
+}
+main{ 
+    background-color:#0000006b;
+    padding: 5px 40px;  
+    margin-top: 20px;
+    border-radius: 40px;
+}
+h1{  
+        font-family: 'Gloria Hallelujah','Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: #a5100e;
+        text-shadow: +3px +2px black;
+}
+.logo, .titulo{
+    text-align: center;  
+}
+
+.botão{
+    padding: -1px -3px;  
+    margin-top: 10px;
     
-      <link rel="stylesheet" href="estilo.css" />
-      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-      <meta name="description" content="descrição do conteudo" />
-      <link href="https://fonts.googleapis.com/css?family=Creepster|Gloria+Hallelujah|Shadows+Into+Light|Courgette" rel="stylesheet"/>
+    
+    margin: auto;
+    box-align: auto center; 
+    
+}
+.button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 30px 318px;
+    cursor: pointer;
+    border-radius: 5px;
+    box-align: auto center;
+}
+.button:hover {
+    background-color: #fff;
+    color:#777;
+    box-shadow: 0 2px 3px #777
+}
 
-  </head>
-
-  <body>
-    <main>
-      <div class="logo">
-        <img src="wine1.png" alt="logo da pagina,taça de vinho" />
-      </div>  
-        <h1 class="titulo">Poesias Góticas</h1>
-
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vel nisl at sapien bibendum mollis non sed nisl. 
-            Integer vulputate rhoncus lobortis. Aenean egestas est eget ligula laoreet viverra.
-            Aliquam maximus sapien eu massa pulvinar, vel sagittis arcu convallis. Donec dictum erat ac felis dignissim,
-            ivamus vehicula interdum est, et interdum massa.
-            at gravida dui porta. Proin dictum nulla eget libero sodales euismod. Curabitur condimentum ac metus vitae malesuada. Duis tincidunt urna et viverra blandit. Vestibulum suscipit sem sed mauris molestie dapibus. Aenean ac justo elit. Nam est augue, porttitor non enim vel, aliquet hendrerit nisi. Aenean volutpat efficitur lacinia. Nullam imperdiet non risus non maximus.
-          </p> 
-          <hr>
-
-        <div class="botão">
-          <a href="#" class="button">BOTÃO</a>
-        </div>
-    </main>
-  </body>
-</html>
